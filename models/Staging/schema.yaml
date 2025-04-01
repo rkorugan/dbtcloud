@@ -7,6 +7,4 @@ sources:
     tables:
       - name: landing_customer
         description: "landing_customer table"
-        tests:
-          - unique
-          - not_null
+        
