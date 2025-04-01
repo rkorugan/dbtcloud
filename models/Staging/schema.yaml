@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: landing
+    schema: landing_zone
+    description: "landing tables"
+    tables:
+      - name: landing_customer
+        description: "landing_customer table"
+        tests:
+          - unique
+          - not_null
